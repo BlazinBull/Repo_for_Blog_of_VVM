@@ -7,7 +7,7 @@ tags:
     - Inverse kinematics
     - Machine Learning
     - Image Processing
-description: <put a short description of the topic here>
+description: <The project aims to develop a robotic manipulator system equipped with both video input capabilities and speech recognition for accepting spoken commands. This system will enable users to control the robotic manipulator intuitively through verbal instructions and visual feedback.>
 ---
 
 ## Mentees  :
