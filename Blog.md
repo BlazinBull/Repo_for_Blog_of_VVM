@@ -57,3 +57,5 @@ We faced difficulty while finding DH Parameters for forward kinematics since the
 
 >ADD something abt future endeavour of our project here! and also if u want to add something in other topics as well (to comentees)
 
+>On running the inverse script,
+![](/home/yash/EKLAVYA_VVM/BLOG/Assets/inv.png)
