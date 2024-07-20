@@ -16,15 +16,22 @@ description: Developing a robotic manipulator system equipped with both video in
 - [Aniket Desai](https://github.com/MASQUERADE-2005)
 
 ---
+# What is our project ? 
+This project aims to develop a robotic manipulator system capable of recognizing objects from a video input and executing pick-and-place tasks based on spoken commands.
+
+We will be designing and developing the Intelligent Video Manipulator with Voice Commands, an innovative system that seamlessly integrates video processing and speech recognition technologies. Our goal is to enable users to interact with and manipulate video content using spoken commands.
+
 # What have we done so far?
 ### Courses we completed
 Since last 2 Weeks we went through ample amount of resources. Starting with Linear Algebra which is quite important for this project coz in order to build this manipualtor , Understanding of algebra and its meaning Geometrically has played a crucial role till present date. Later we studied and implemented ROS2 (Robot Operating System 2) to deal with the Manipulator in real time. 
 
 
 ### Forward and Inverse Kinematics
-After competing this courses and it's implementation, We started with Forward Kinematics. The Manipulator has various joints and links. To Control a Robot we can control it by Either Providing Joint Angles as input so that its End-effector reaches a particular point in it's Workspace or by providing Coordinates of the tip of the End-effector in Cartesian-Coordinate system.
+After competing this courses and it's implementation, We started with Forward Kinematics and Subsequently the Inverse. The Manipulator has various joints and links. To Control a Robot we can control it by Either Providing Joint Angles as input so that its End-effector reaches a particular point in it's Workspace or by providing Coordinates of the tip of the End-effector in Cartesian-Coordinate system.
 
-We have successfully completed the Forward Kinematics Part of the 4-DOF manipulator which includes DH parameters,Transformation Matrix and the code for the same.
+The Latter is known as **Inverse Kinematics** and the former is known as **Forward kinematics**.
+
+We have successfully completed the Forward and Inverse Kinematics Script of the 4-DOF manipulator. 
 
 > ![](Assets/F.K.png)
 
@@ -41,14 +48,12 @@ We have successfully completed the Forward Kinematics Part of the 4-DOF manipula
 where l1,l2,l3,l4,l5 are link lengths
 
 # What are we dealing with now
-As of now we are thinking of the appropriate solution for the *INVERSE KINEMATICS* and going through different resources to solve the same.
+As of now we are learning and trying to implement the launch files for our forward/inverse kinematics script and GAZEBO.
 
-Also we have started learning Machine learning(ML) courses simultaneously in order to enable the manipulator to recognize the *Objects* around it and take actions accordingly.
+Also we have started with Machine learning(ML) courses simultaneously in order to enable the manipulator to recognize the *Objects* around it and take actions accordingly.
 
 # Difficulties we faced and Future Endeavours
-We faced difficulty while finding DH Parameters for forward kinematics since there were various methods availaible across the web. Due to this, It cost us a lot of time.
+We faced difficulty while finding DH Parameters for forward kinematics since there were various methods availaible across the web. Also inverse kinematics was a bit tricky. But with time we figured it out.
 
-And currently we are facing issue in getting a trignometric approach to the inverse kinematics as only by using the Coordinates of the End-effector and the link lengths of the manipulator, We have to get joint angles for all 4 joints.
+>ADD something abt future endeavour of our project here! and also if u want to add something in other topics as well (to comentees)
 
-> As of now we are successful in getting the *COORDINATES* when the forward kinematics script is also used along
-![](Assets/Frwd2Inv.png)
