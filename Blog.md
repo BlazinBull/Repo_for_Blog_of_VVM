@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <Voice_Video_Manipulator>
+title: Voice_Video_Manipulator
 tags: 
     - Robotics
     - ROS2
@@ -48,14 +48,12 @@ We have successfully completed the Forward and Inverse Kinematics Script of the 
 where l1,l2,l3,l4,l5 are link lengths
 
 # What are we dealing with now
-As of now we are learning and trying to implement the launch files for our forward/inverse kinematics script and GAZEBO.
+As of now we are learning and trying to implement the launch files for our inverse kinematics script and GAZEBO.
 
 Also we have started with Machine learning(ML) courses simultaneously in order to enable the manipulator to recognize the *Objects* around it and take actions accordingly.
 
-# Difficulties we faced and Future Endeavours
-We faced difficulty while finding DH Parameters for forward kinematics since there were various methods availaible across the web. Also inverse kinematics was a bit tricky. But with time we figured it out.
-
->ADD something abt future endeavour of our project here! and also if u want to add something in other topics as well (to comentees)
+# Difficulties we faced 
+We faced difficulty while finding DH Parameters for forward kinematics since there were various methods availaible across the web. Also inverse kinematics was a bit tricky. But with time, We figured it out.
 
 >On running the inverse script,
 ![](Assets/inv.png)
