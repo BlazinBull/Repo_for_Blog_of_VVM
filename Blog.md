@@ -56,6 +56,7 @@ Also we have started with Machine learning(ML) courses simultaneously in order t
 We faced difficulty while finding DH Parameters for forward kinematics since there were various methods availaible across the web. Also inverse kinematics was a bit tricky. But with time, We figured it out.
 
 >On running the inverse script,
+
 ![](Assets/inv.png)
 
 
